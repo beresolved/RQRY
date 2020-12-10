@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://examplesite.com/get-started/</loc>
+    <lastmod>2020-12-10T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="nl"
+                href="https://examplesite.com/nl/get-started/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://examplesite.com/get-started/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://examplesite.com/tutorial/</loc>
+    <lastmod>2020-12-10T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="nl"
+                href="https://examplesite.com/nl/tutorial/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://examplesite.com/tutorial/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://examplesite.com/extensive-1/</loc>
+    <lastmod>2020-12-10T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="nl"
+                href="https://examplesite.com/nl/extensive-1/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://examplesite.com/extensive-1/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://examplesite.com/extensive-2/</loc>
+    <lastmod>2020-12-10T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="nl"
+                href="https://examplesite.com/nl/extensive-2/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://examplesite.com/extensive-2/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://examplesite.com/extensive-3/</loc>
+    <lastmod>2020-12-10T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="nl"
+                href="https://examplesite.com/nl/extensive-3/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://examplesite.com/extensive-3/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://examplesite.com/</loc>
+    <lastmod>2020-12-10T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="nl"
+                href="https://examplesite.com/nl/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://examplesite.com/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://examplesite.com/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="nl"
+                href="https://examplesite.com/nl/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://examplesite.com/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://examplesite.com/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="nl"
+                href="https://examplesite.com/nl/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://examplesite.com/tags/"
+                />
+  </url>
+  
+</urlset>

@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <meta charset="utf-8">
+  <title>RQRY Infosite</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="generator" content="Hugo 0.76.5" />
+  
+  <!-- ** CSS Plugins Needed for the Project ** -->
+  
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://examplesite.com/plugins/bootstrap/bootstrap.min.css">
+
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="https://examplesite.com/plugins/themify-icons/themify-icons.css">
+
+  <!--Favicon-->
+  <link rel="icon" href="https://examplesite.com/images/favicon.png" type="image/x-icon">
+
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+  
+  <style>
+  :root{
+    --primary-color:#007e6b;
+    --body-color:#ffffff;
+    --text-color:#326363;
+    --text-color-dark:#242738;
+    --white-color:#bce0d1;
+    --light-color:#bce0d1;
+    --font-family:Lato;
+  }
+  </style>
+
+<!-- Main Stylesheet -->
+
+<link href="https://examplesite.com/css/style.min.css" rel="stylesheet" media="screen"/>
+  
+<!-- ** JS Plugins Needed for the Project ** -->
+
+<!-- jquiry -->
+<script src="https://examplesite.com/plugins/jquery/jquery-1.12.4.js"></script>
+
+<!-- jquary ui -->
+<script src="https://examplesite.com/plugins/jquery/jquery-ui.js"></script>
+
+<!-- Bootstrap JS -->
+<script src="https://examplesite.com/plugins/bootstrap/bootstrap.min.js"></script>
+
+<!-- match-height JS -->
+<script src="https://examplesite.com/plugins/match-height/jquery.matchHeight-min.js"></script>
+
+
+  
+
+  <!-- create /layouts/partials/overrides/header.html in your own theme or root directory to add your custom content here -->
+
+
+</head>
+
+  
+  <body>
+    
+    <!-- header -->
+    <header class="banner overlay bg-cover" data-background="https://examplesite.com/images/banner.jpg">
+      <nav class="navbar navbar-expand-md navbar-dark">
+  <div class="container">
+    <a class="navbar-brand px-2" href="/">
+      
+      
+      
+      
+      <img class="img-fluid" src="https://examplesite.com/images/logo.png "
+        alt="RQRY Infosite">
+      
+      
+    </a>
+    <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation"
+      aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse text-center" id="navigation">
+      <ul class="navbar-nav ml-auto">
+        
+        
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="https://examplesite.com/">Home</a>
+        </li>
+        
+        
+        
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="https://examplesite.com/get-started">Get Started</a>
+        </li>
+        
+        
+        
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="https://examplesite.com/tutorial">Tutorial</a>
+        </li>
+        
+        
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Extensive
+          </a>
+          <div class="dropdown-menu">
+            
+            <a class="dropdown-item" href="https://examplesite.com/extensive-1">Extensive - Applicants</a>
+            
+            <a class="dropdown-item" href="https://examplesite.com/extensive-2">Extensive - Vacancies</a>
+            
+            <a class="dropdown-item" href="https://examplesite.com/extensive-3">Extensive - Skills</a>
+            
+          </div>
+        </li>
+        
+        
+      </ul>
+      
+      <select class="lang-list " id="select-language"
+        onchange="location = this.value;">
+        
+        
+        
+        
+        
+        
+        
+        
+        <option id="en" value="https://examplesite.com/" selected>EN
+        </option>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <option id="nl" value="https://examplesite.com/nl/">NL</option>
+        
+        
+        
+        
+      </select>
+      
+    </div>
+  </div>
+</nav>
+
+      <!-- banner -->
+<div class="container section">
+	<div class="row">
+		<div class="col-lg-8 text-center mx-auto">
+			<h1 class="text-white mb-3">RQRY Infosite</h1>
+			<p class="text-white mb-4">Welcome to the infosite of RQRY!</p>
+			<div class="position-relative">
+				<input id="search" class="form-control" placeholder="Have a question? Just ask here or contact us, we &#39;ll be happy to help!">
+				<i class="ti-search search-icon"></i>
+				
+				
+				
+				
+				<script>
+					$(function() {
+					var projects = [
+						
+						{
+							value: "Get Started",
+							label: "<p>On this page you will find a brief overview of the main features of RQRY\nDashboard    The dashboard gives you a quick overview of:\n  Candidates: You can organize the candidates by status (in review, on hold, \u0026hellip;) and you can see how many results of the respective candidates are already included in RQRY.\n  Vacancies: You can view the status (open, on hold, ..) of your specific vacancies and what you receive the ability to go directly to the simulation page for a specific job opening.\n  Furthermore, you also get the option to add new candidates or vacancies directly from the dashboard your organizational RQRY.\n     Applicants    The applicants page gives you a quick overview of:\n First name and surname E-mail address Number of results per candidate   You get the options on this page to:\n Filter existing candidates by status Organize existing candidates by name, e-mail address and number of results Add new candidates Award existing candidates one or more scores Adjust the data of an existing candidate     Vacancies    The vacancies page gives you a quick overview of:\n Job titles Current status of the vacancy Total number of results per vacancy   You get the options to:\n Filter existing vacancies by status Organize existing vacancies by title, status and number of results Add new vacancies Make simulations for existing vacancies Editing and updating existing vacancies     Skills    The skills page gives you a quick overview of:\n Skill titles Related skills Behaviors and skills of high-performing employees    You get the options to:\n Add new skills Adjust existing skills      </p>",
+							url:"https:\/\/examplesite.com\/get-started\/"
+						},
+						
+						{
+							value: "Tutorial",
+							label: "<p>On this page we will further discuss the possibilities of RQRY on the basis of a concrete example\nPlease note that this is a purely fictional example and therefore cannot be used as an example for a vacancy in terms of content\n  First a brief clarification of what we will show in this tutorial:  We would like to prepare a vacancy for a nurse (M \/ F \/ X) and score our candidates for this vacancy.\n First we have to log in  We do this at https:\/\/rqry.ai\/auth\/login\/, enter your email and password to log in.\n Check the organization for which you want to create the vacancy  After we log in, we end up on the dashboard. Here it is important that you ensure that you are on the RQRY page of the right organization.\n You can check this in the top right corner at the arrow next to the name of your organization. There, you will get an overview of the RQRY pages of the different organizations for which you are active. As you can see in the tutorial we are active for the organization \u0026ldquo;sandbox\u0026rdquo;. So choose the relevant organization for which you want to create a vacancy.\n Once we have chosen the right organization, we can start for real! For this we will first check our skills that we need for the vacancy.\n Before creating the vacancy: check skills  We will first check which skills we are searching for this vacancy and we will create one of these skills if it is not yet available in our list of skills on the \u0026lsquo;Skills\u0026rsquo; page.\n We see that our skill \u0026lsquo;Responsibility\u0026rsquo; cannot yet be found in the list and we will first create it via \u0026lsquo;Create New Skill\u0026rsquo;.\n Before creating the vacancy: create skills  We enter the name of the skill \u0026lsquo;Responsibility\u0026rsquo; and a skill related to this, namely \u0026lsquo;Embody the values\u0026rsquo;. Then we fill in the expected behavior of a high performer for this skill.\n Create vacancy: title \u002b selection stages  Then we will create the vacancy effectively via \u0026lsquo;New Vacancy\u0026rsquo; on the \u0026lsquo;Vacancies\u0026rsquo; page where we give it the title \u0026lsquo;Nurse (M \/ F \/ X)\u0027 and determine which stages will be a part of the selection process. We choose to have the selection process consist of a CV screening, interview and assessment. We delete the psychometric test out of the right column by clicking the cross.\n Create vacancy: skills  After we have given a title to the vacancy and decided which stages we want the selection process to include, we have to determine which skills are required for the vacancy. We will assign these skills to the 3 categories: \u0026lsquo;must have\u0026rsquo;, \u0026lsquo;nice to have\u0026rsquo; and \u0026lsquo;mandatory\u0026rsquo;.\nIn the example we choose the skills \u0026lsquo;Responsibility\u0026rsquo; and \u0026lsquo;Power of observation\u0026rsquo; as \u0026lsquo;must haves\u0026rsquo; and \u0026lsquo;Embody the values\u0026rsquo; and \u0026lsquo;Communication\u0026rsquo; as \u0026lsquo;nice to haves\u0026rsquo;. The \u0026lsquo;mandatory\u0026rsquo; is a \u0026lsquo;Bachelor of Nursing\u0026rsquo; .\n Create vacancy: skills weights and ranking  Once we have done this, we determine to what extent the must haves vs the nice to haves will weigh in the calculation of the fit between the person and the vacancy and how heavy a certain skill weighs in a certain category by indicating a ranking.\nIn this example we choose to have the \u0026lsquo;must haves\u0026rsquo; weighted for 70% and the \u0026lsquo;nice to haves\u0026rsquo; for 30%. We also determine the underlying ranking within the categories, for example we choose within the \u0026lsquo;nice to haves\u0026rsquo; to move \u0026lsquo;Communication\u0026rsquo; to 1st place and \u0026lsquo;Embody the Values\u0026rsquo; to 2nd place\nFor the \u0026lsquo;must haves\u0026rsquo; we choose to rank both skills equally high by indicating \u0026lsquo;Equal to the previous one\u0026rsquo;. Finally, we also indicate the desired scores for the various skills within the \u0026lsquo;Expected score\u0026rsquo; box.\n Scoring candidate: control  We want to score a candidate for the different phases of the selection process. For this we must first check whether the candidate is already present in the list. The candidate from our example is Peter Peeters, this candidate is not yet in our list on the \u0026lsquo;Applicants\u0026rsquo; page. We will therefore still have to create this candidate.\n Create candidate  We will now create a candidate profile on the \u0026lsquo;Applicants\u0026rsquo; page. We will then use this candidate profile to give the candidate a score for the skills of the vacancy.\nOur candidate is called Peter Peeters, has the e-mail address Peter.Peeters@test.test and at applicant source we write \u0026lsquo;acquaintance within the company\u0026rsquo; since the candidate has been prescribed by an employee of our organization.\nFurthermore, we did not receive a motivation letter, but if we did, we would have added it under \u0026lsquo;Upload File\u0026rsquo;.\nWe do not write anything for \u0026lsquo;Applicant Profile Notes\u0026rsquo; for the time being, as we have no comments about the candidate yet.\n  Find candidate  After we have created the candidate profile, it will appear on the \u0026lsquo;Applicants\u0026rsquo; page. If the candidate does not appear immediately, you may have to adjust the status filter at the top right of the list.\nIn the example, the list has been changed to \u0026lsquo;Recent\u0026rsquo; so that we filter our list on the most recently created candidates.\n  Scoring candidate: new score  Once we have found our candidate in the list, we click on the button \u0027\u002b SCORE\u0026rsquo; to add a score. Then we get to see this, which means that we first have to determine for which vacancy we want to score the candidate.\n  After this, we give the candidate a score for the stage of the CV screening. Based on the CV, we score a 7 for \u0026lsquo;Embody the values\u0026rsquo; and \u0026lsquo;Responsibility\u0026rsquo;.\nSince we do not yet possess enough information to make strong conclusions about the Power of Observation and the candidate\u0026rsquo;s Communication skills, we leave the scores in the middle (somewhere between 4 and 6). We leave some remarks in the \u0026lsquo;Recruitment Process Notes\u0026rsquo; stating that additional attention is needed in subsequent phases for these skills.\n Simulation: interpretation of the fit between candidate and vacancy   After we have given the candidate a score, we can now simulate how well the candidate fits the vacancy. On the \u0026lsquo;Vacancies\u0026rsquo; page we press the button \u0026lsquo;SIMULATE\u0026rsquo;. We then see the simulation below.\n  We can view the \u0026lsquo;skill profile scores\u0026rsquo; of Peter Peeters by clicking on the blue dot in the left graph.\nBy hovering our mouse over the blue dot, we see a 85\/100 fit between the candidate and the vacancy. With the \u0026lsquo;skill profile scores\u0026rsquo; we can inspect how this fit score came about, by looking at how the candidate scores on the skills of the vacancy compared to the desired scores on these skills.\n85\/100 is a good fit, but since we\u0026rsquo;ve only done a CV screening for now, chances are that this value has been inflated. Further phases will therefore have to indicate whether the initial fit score is confirmed\n  Finally, at the bottom of the page you can find a pie chart showing the extent to which the different skill scores are included in the calculation of the fit score between candidate and vacancy.\n</p>",
+							url:"https:\/\/examplesite.com\/tutorial\/"
+						},
+						
+						{
+							value: "Extensive - Applicants",
+							label: "<p>Here you will find more detailed information about the \u0027 Applicants \u0027 section within RQRY.\nNew Applicant    New applicant  You can choose to add new candidates via both the dashboard and the applicant page.\n  You can add the following information to the profile of the candidate:\n  First Name\n  Last name\n  E-mail address\n  Extra documents such as motivation letters, certificates, CV, \u0026hellip;\n  Source of recruitment: online advertisement, word-of-mouth marketing, acquaintance within the company, \u0026hellip; You can add this yourself or you can click on a previous recruitment source.\n  Applicant profile notes: do you have any comments for a colleague or as a reminder for yourself? Then add them here.\n    Have you entered the candidate\u0026rsquo;s details correctly? Don\u0026rsquo;t forget to click on \u0026lsquo;save applicant\u0026rsquo;.\n    Add Score For Applicant    Add score for applicant  On this page you can score a candidate for your selected vacancy.\n  After selecting a vacancy, you have the option to choose the stage of the recruitment process for which you want to score the candidate. Depending on the vacancy, different phases will be available.\n  Once you have chosen the phase of the recruitment process, you can score the candidate on the different skills:\n By hovering your mouse over the information sign at the top right of a skill, you can see what the behaviors and skills are of a high-performing worker for this skill. If you do not have enough knowledge about the presence or absence of a skill in an early phase, then leave the score in the middle: 4-6. You can then add a comment to the \u0026lsquo;Recruitment Process Notes\u0026rsquo;. stating that extra attention for this skill is required in a subsequent phase of the recruitment process. Don\u0026rsquo;t forget to save your score.      Applicant Results Detail    Applicant Results Detail  By clicking on a candidate\u0026rsquo;s profile, you will get a detailed overview of the following candidate data:\n   First name and surname E-mail address Source of recruitment Vacancies for which the candidate competes  You will receive an overview of each vacancy for which the candidate has been scored:\n   The skills associated with the vacancy Scores in the different recruitment phases per vacancy Separate \u0026lsquo;Recruitment Process Notes\u0026rsquo; per vacancy   You will be given the opportunity to:\n Copy the summary table Search the score for a specific skill via the search bar Receive a report via \u0026lsquo;PDF\u0026rsquo; from the candidate for the selected vacancy      </p>",
+							url:"https:\/\/examplesite.com\/extensive-1\/"
+						},
+						
+						{
+							value: "Extensive - Vacancies",
+							label: "<p>Here you will find more detailed information about the ‘ Vacancies ’ section within RQRY.\nCreate New Vacancy    Create New Vacancy  You can create a new vacancy on this page: Determine the content of your vacancy:\n title status: open , on hold or closed Recruitment phases: If you want more phases than indicated here, you can drag a phase from the left column to the right column. If you want fewer phases, you can press the cross in the right column to delete the phase.    Skills of the vacancy: \u0026lsquo;must have skills\u0026rsquo;, \u0026lsquo;nice to have skills\u0026rsquo; and \u0026lsquo;mandatory skills\u0026rsquo; \u0026lsquo;must have skills\u0027: skills that are necessary for delivering good work performances \u0026lsquo;nice to have skills\u0027: skills that make the difference between good and excellent candidates, these are not necessary for the delivery of a good work performance but are used for ensuring differentiation between candidates \u0026lsquo;mandatory skills\u0027: skills that serve as a condition for being allowed or able to practice a profession Via the slider you can indicate to what extent you want the \u0026lsquo;must haves \u0027 vs \u0026lsquo;nice to haves\u0026rsquo; to weigh on determining the fit between candidates and the vacancy Via \u0026lsquo;add a skill\u0026rsquo; you can add skills to the different categories of skills   After you have added skills to your vacancy, you still need to determine some crucial characteristics:\n  Categorize your skills: the column represents the category of skills, so make sure you have also categorized your \u0026lsquo;must haves\u0026rsquo; in the column of \u0026lsquo;must have skills\u0026rsquo; Indicate the relative importance of your skills per category: if you find a certain skill more important then another skill, you can indicate this by dragging it above the other skill. If you have skills, that are equally important you can indicate this by putting them below one another and indicating \u0026lsquo;Equal to the previous one\u0026rsquo;. Per skill you must also indicate an expected score. This expected score reflects the desired level that candidates need to possess to have a chance of getting recruited    A few more important remarks with regard to vacancies:\n  If you need to duplicate a vacancy (e.g. new solution consultant vacancy when this vacancy already exists), you can add extra information to the title of this vacancy (e.g. solution consultant HR department). If you don\u0026rsquo;t, RQRY will add the creation date of the vacancy to the title. Editing \/ updating a vacancy is done in the same way as creating a vacancy. To change a vacancy, to update it, \u0026hellip; you must first put the vacancy \u0026lsquo;on hold\u0026rsquo;. This is created so that you can be sure that changes to your vacancy do not interfere with the recruitment process. Only vacancies that are \u0026lsquo;open\u0026rsquo; can receive candidate scores. Don\u0026rsquo;t forget to save your vacancy.      Vacancy Details    Vacancy details   You can reach this page by clicking on a vacancy in the overview of vacancies on the \u0026lsquo;Vacancies\u0026rsquo; page. The \u0026lsquo;Vacancy Details\u0026rsquo; page gives you the opportunity to look at 2 overviews.\n   The \u0026lsquo;Results\u0026rsquo; subpage gives you the opportunity to view the fit scores between the candidates and the vacancy per phase of the recruitment process.     If you click on the arrow to the left of the candidate name, you can get a more extensive overview of the specific candidate scores that are listed per skill that you link to the vacancy. The scores on these skills form the basis for the fit score between the candidate and the vacancy. You can also view the scores per phase of the recruitment process. This will give you a detailed overview of a candidate, where you can check how the candidate is scored on a specific skill for the different recruitment phases.     On the \u0026lsquo;Results\u0026rsquo; page you also have the option get a report of the fit scores for the various recruitment phases via the \u0026lsquo;PDF\u0026rsquo; button. You can use this for internal communication concerning the recruitment decision. Below you will find an example of this.     Furthermore, on the \u0026lsquo;Results\u0026rsquo; page you have the option to edit both the scores and the status of the candidates. On the general page \u0026lsquo;Vacancy Details\u0026rsquo; you have several options: you can proceed to the simulations, you can choose to edit the vacancy and you can also add scores to the candidates for the different recruitment phases.   The \u0026lsquo;Profile\u0026rsquo; subpage gives you an overview of how you have built the vacancy.    You will be shown the following information:\n  Steps in the selection and recruitment process Names of the skills that make up the vacancy Category to which the skill belongs (\u0027Mandatory\u0027, \u0026lsquo;Must Have\u0026rsquo;, \u0026lsquo;Nice To Have\u0027) \u0026lsquo;Criticality\u0027: indicates the extent to which the certain category of skills weighs on the determination of fit between candidate and vacancy (e.g. 40-60, 50-50, \u0026hellip;). This is the relative importance of the categories of skills between each other, the importance of the \u0026lsquo;must haves\u0026rsquo; vs \u0026lsquo;nice to haves\u0026rsquo; \u0026lsquo;Weight\u0027: indicates the relative importance of a skill within a certain category of skills, for example how strongly a certain skill counts in the \u0026lsquo;must haves\u0026rsquo;      Simulation    Simulation  On this page you will receive 2 simulations that form the support engine for your recruitment process.\n  \u0026lsquo;Visual Analysis\u0027:    A simulation showing the fit between the vacancy and a random sample of 100 fictional candidates based on the scores on \u0026lsquo;must haves\u0026rsquo; and \u0026lsquo;nice to haves\u0026rsquo;.     This \u0026lsquo;Visual Analysis\u0026rsquo; consists of green dots and blue dots. The green dots represent the sample of 100 random fictional candidates and the blue dots are the candidates you have added yourself. By hovering over a dot, you can see the fit of a specific candidate with the vacancy. If you click on a dot, you will get the \u0026ldquo;Skill profile scores for \u0026hellip;\u0026quot;: this is a graph that shows what the desired scores are (orange) and what the scores of the selected candidate are (blue) for the skills of a vacancy.    \u0026lsquo;Impact Analysis\u0027:     This diagram displays the weights of the individual skills in the calculation of the fit between the candidate and the vacancy.\n  By hovering over an element of the diagram you can see how much a specific skill weighs in the calculation of the fit between the candidate and the vacancy.\n  Be sure to check this out to make sure the distribution reflects what the organizational needs are for the specific vacancy.\n      </p>",
+							url:"https:\/\/examplesite.com\/extensive-2\/"
+						},
+						
+						{
+							value: "Extensive - Skills",
+							label: "<p>Here you will find more detailed information about the ‘ Skills ’ section within RQRY. New Skills    New Skills  On this page you can create a new skill. Therefore, you must enter the following information:  Name of the skill Related skill: another skill that is closely related to the skill \u0026lsquo;High Behavior\u0027: behaviors and skills of high performing employees for this specific skill. Don\u0026rsquo;t forget to save!   Editing\/updating a skill is done in the same way as creating skills. Watch out for the following:\n  Make sure your descriptions of the skill are clear and communicable to others. Skills can always be edited \/ updated, but beware of skills that are already in use within profiles of candidates. In the future, skills that are already in use will no longer be updatable. Don\u0026rsquo;t forget to update.     </p>",
+							url:"https:\/\/examplesite.com\/extensive-3\/"
+						},
+						
+						{
+							value: "RQRY Infosite",
+							label: "<p></p>",
+							url:"https:\/\/examplesite.com\/"
+						},
+						
+						{
+							value: "Categories",
+							label: "<p></p>",
+							url:"https:\/\/examplesite.com\/categories\/"
+						},
+						
+						{
+							value: "Tags",
+							label: "<p></p>",
+							url:"https:\/\/examplesite.com\/tags\/"
+						},
+						
+					];
+					$( "#search" ).autocomplete({
+						source: projects
+					})
+					.data( "ui-autocomplete" )._renderItem = function( ul, item ) {
+						return $( "<li>" )
+						.append( "<a href=" + item.url + " + \" &quot;\" +  >" + item.value + "</a>" + item.label )
+						.appendTo( ul );
+					};
+					});
+				</script>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- /banner -->
+    </header>
+    <!-- /header -->
+    
+    
+
+  <!-- topics -->
+  <section class="section">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 text-center">
+          <h2 class="section-title">Find your answer by subject</h2>
+        </div>
+        <!-- topic-item -->
+        
+        <div class="col-lg-4 col-sm-6 mb-4">
+          <a href="https://examplesite.com/get-started/" class="px-4 py-5 bg-white shadow text-center d-block match-height">
+            <i class="ti-panel icon text-primary d-block mb-4"></i>
+            <h3 class="mb-3 mt-0">Get Started</h3>
+            <p class="mb-0">Here you can find some basic information about RQRY.</p>
+          </a>
+        </div>
+        
+        <div class="col-lg-4 col-sm-6 mb-4">
+          <a href="https://examplesite.com/tutorial/" class="px-4 py-5 bg-white shadow text-center d-block match-height">
+            <i class="ti-pulse icon text-primary d-block mb-4"></i>
+            <h3 class="mb-3 mt-0">Tutorial</h3>
+            <p class="mb-0">Here you can find a quick tutorial.</p>
+          </a>
+        </div>
+        
+        <div class="col-lg-4 col-sm-6 mb-4">
+          <a href="https://examplesite.com/extensive-1/" class="px-4 py-5 bg-white shadow text-center d-block match-height">
+            <i class="ti-dashboard icon text-primary d-block mb-4"></i>
+            <h3 class="mb-3 mt-0">Extensive - Applicants</h3>
+            <p class="mb-0">Here you will find more detailed information about the &#39; Applicants &#39; section within RQRY.</p>
+          </a>
+        </div>
+        
+        <div class="col-lg-4 col-sm-6 mb-4">
+          <a href="https://examplesite.com/extensive-2/" class="px-4 py-5 bg-white shadow text-center d-block match-height">
+            <i class="ti-package icon text-primary d-block mb-4"></i>
+            <h3 class="mb-3 mt-0">Extensive - Vacancies</h3>
+            <p class="mb-0">Here you will find more detailed information about the ‘ Vacancies ’ section within RQRY.</p>
+          </a>
+        </div>
+        
+        <div class="col-lg-4 col-sm-6 mb-4">
+          <a href="https://examplesite.com/extensive-3/" class="px-4 py-5 bg-white shadow text-center d-block match-height">
+            <i class="ti-target icon text-primary d-block mb-4"></i>
+            <h3 class="mb-3 mt-0">Extensive - Skills</h3>
+            <p class="mb-0">Here you will find more detailed information about the ‘ Skills ’ section within RQRY.</p>
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  <!-- /topics -->
+
+  
+  
+  <!-- call to action -->
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="section px-3 bg-white shadow text-center">
+          <h2 class="mb-4">Didn&rsquo;t find an answer to your question?</h2>
+          <p class="mb-4">Contact us on <a href="mailto:rqry@resolved.be">rqry@resolved.be</a> for a quick answer!</p>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /call to action -->
+  
+  
+
+
+    <!-- footer -->
+<footer class="section pb-4">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-8 text-md-left text-center">
+       <p class="mb-md-0 mb-4">Copyright © 2020 Resolved</p>
+      </div>
+      <div class="col-md-4 text-md-right text-center">
+        <ul class="list-inline">
+          
+          <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="https://resolved.be/solutions-rqry"><i class="ti-home"></i></a></li>
+          
+          <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="https://twitter.com/BeResolved"><i class="ti-twitter-alt"></i></a></li>
+          
+          <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="https://www.linkedin.com/company/69262648"><i class="ti-linkedin"></i></a></li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- /footer -->
+
+<!-- Main Script -->
+
+<script src="https://examplesite.com/js/script.min.js"></script>
+  </body>
+
+</html>

@@ -1,0 +1,184 @@
+################################# Default configuration ###################
+# provide your domain here
+baseURL = "https://examplesite.com/"
+# theme
+theme = "dot-hugo-documentation-theme"
+# site title
+title = "RQRY Infosite"
+# disable language
+disableLanguages = []
+# google analytics
+googleAnalytics = "" # paste your analytics ID here. (Ex: UA-123-45)
+# unsafe html
+[markup.goldmark.renderer]
+unsafe = true
+
+
+############################# Default Parameters ##########################
+[params]
+# logo is for all page
+logo = "images/logo.png"
+# logo white is for homepage logo, you can use colorful logo too...
+logo_white = "images/logo.png"
+# when logo is empty, it will shown your site title
+
+# customize color
+primary_color = "#007e6b"
+body_color =   "#ffffff" #"#3c7473" (darkbody)
+text_color = "#326363"
+text_color_dark = "#242738"
+white_color = "#bce0d1"
+light_color = "#bce0d1"
+
+# font family
+font_family = "lato" # Choose font family from : https://fonts.google.com/
+
+# contact form action
+contact_form_action = "#" # contact form works with : https://formspree.io
+
+
+############################## social links ##############################
+[[params.social]]
+icon = "ti-home" # themify icon pack : https://themify.me/themify-icons
+link = "https://resolved.be/solutions-rqry"
+
+[[params.social]]
+icon = "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
+link = "https://twitter.com/BeResolved"
+  
+  
+[[params.social]]
+icon = "ti-linkedin" # themify icon pack : https://themify.me/themify-icons
+link = "https://www.linkedin.com/company/69262648"
+
+################################ English Language ######################
+[Languages.en]
+languageName = "EN"
+languageCode = "en-us"
+weight = 1
+copyright = "Copyright © 2020 Resolved"
+
+# banner
+[Languages.en.params.banner]
+title = "RQRY Infosite"
+subtitle = "Welcome to the infosite of RQRY!"
+bg_image = "images/banner.jpg"
+placeholder = "Have a question? Just ask here or contact us, we 'll be happy to help!"
+
+# call to action
+[Languages.en.params.cta]
+enable = true
+title = "Didn't find an answer to your question?"
+content = "Contact us on rqry@resolved.be for a quick answer!"
+# call to action button
+[Languages.en.params.cta.button]
+enable = false
+label = "contact us"
+link = "contact"
+
+
+################## english navigation #################
+[[Languages.en.menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[Languages.en.menu.main]]
+name = "Get Started"
+url = "get-started"
+weight = 2
+
+[[Languages.en.menu.main]]
+name = "Tutorial"
+url = "tutorial"
+weight = 3
+
+# Dropdown menu
+[[Languages.en.menu.main]]
+weight = 4
+name = "Extensive"
+hasChildren = true
+
+  [[Languages.en.menu.main]]
+  parent = "Extensive"
+  name = "Extensive - Applicants"
+  url = "extensive-1"
+  weight = 1
+
+  [[Languages.en.menu.main]]
+  parent = "Extensive"
+  name = "Extensive - Vacancies"
+  url = "extensive-2"
+  weight = 2
+
+  [[Languages.en.menu.main]]
+  parent = "Extensive"
+  name = "Extensive - Skills"
+  url = "extensive-3"
+  weight = 3
+
+
+################################### Franch Language ######################
+[Languages.nl]
+languageName = "NL"
+languageCode = "nl-be"
+weight = 2
+copyright = "Copyright © 2020 Resolved"
+
+# banner
+[Languages.nl.params.banner]
+title = "RQRY Infosite"
+subtitle = "Welkom op de infosite van RQRY!"
+bg_image = "images/banner.jpg"
+placeholder = "Heb je een vraag? Vraag het hier of contacteer ons, we helpen je graag!"
+
+# call to action
+[Languages.nl.params.cta]
+enable = true
+title = "Vind je geen antwoord op je vraag?"
+content = "Contacteer ons op het emailadres rqry@resolved.be voor een snel antwoord."
+# call to action button
+[Languages.nl.params.cta.button]
+enable = false
+label = "Contacteer ons"
+link = "contact"
+
+################## french navigation #################
+[[Languages.nl.menu.main]]
+name = "Startpagina"
+url = "/"
+weight = 1
+
+[[Languages.nl.menu.main]]
+name = "Aan de slag"
+url = "get-started"
+weight = 2
+
+[[Languages.nl.menu.main]]
+name = "Tutorial"
+url = "tutorial"
+weight = 3
+
+# Dropdown menu
+[[Languages.nl.menu.main]]
+weight = 4
+name = "Uitgebreid"
+hasChildren = true
+
+  [[Languages.nl.menu.main]]
+  parent = "Uitgebreid"
+  name = "Uitgebreid - Applicants"
+  url = "extensive-1"
+  weight = 1
+
+  [[Languages.nl.menu.main]]
+  parent = "Uitgebreid"
+  name = "Uitgebreid - Vacancies"
+  url = "extensive-2"
+  weight = 2
+
+  [[Languages.nl.menu.main]]
+  parent = "Uitgebreid"
+  name = "Uitgebreid - Skills"
+  url = "extensive-3"
+  weight = 3

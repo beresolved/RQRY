@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="nl-be">
+  <head>
+  <meta charset="utf-8">
+  <title>RQRY Infosite</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="generator" content="Hugo 0.76.5" />
+  
+  <!-- ** CSS Plugins Needed for the Project ** -->
+  
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://examplesite.com/plugins/bootstrap/bootstrap.min.css">
+
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="https://examplesite.com/plugins/themify-icons/themify-icons.css">
+
+  <!--Favicon-->
+  <link rel="icon" href="https://examplesite.com/images/favicon.png" type="image/x-icon">
+
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+  
+  <style>
+  :root{
+    --primary-color:#007e6b;
+    --body-color:#ffffff;
+    --text-color:#326363;
+    --text-color-dark:#242738;
+    --white-color:#bce0d1;
+    --light-color:#bce0d1;
+    --font-family:Lato;
+  }
+  </style>
+
+<!-- Main Stylesheet -->
+
+<link href="https://examplesite.com/css/style.min.css" rel="stylesheet" media="screen"/>
+  
+<!-- ** JS Plugins Needed for the Project ** -->
+
+<!-- jquiry -->
+<script src="https://examplesite.com/plugins/jquery/jquery-1.12.4.js"></script>
+
+<!-- jquary ui -->
+<script src="https://examplesite.com/plugins/jquery/jquery-ui.js"></script>
+
+<!-- Bootstrap JS -->
+<script src="https://examplesite.com/plugins/bootstrap/bootstrap.min.js"></script>
+
+<!-- match-height JS -->
+<script src="https://examplesite.com/plugins/match-height/jquery.matchHeight-min.js"></script>
+
+
+  
+
+  <!-- create /layouts/partials/overrides/header.html in your own theme or root directory to add your custom content here -->
+
+
+</head>
+
+  
+  <body>
+    
+    <!-- header -->
+    <header class="banner overlay bg-cover" data-background="https://examplesite.com/images/banner.jpg">
+      <nav class="navbar navbar-expand-md navbar-dark">
+  <div class="container">
+    <a class="navbar-brand px-2" href="/nl">
+      
+      
+      
+      
+      <img class="img-fluid" src="https://examplesite.com/images/logo.png "
+        alt="RQRY Infosite">
+      
+      
+    </a>
+    <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation"
+      aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse text-center" id="navigation">
+      <ul class="navbar-nav ml-auto">
+        
+        
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="https://examplesite.com/nl/">Startpagina</a>
+        </li>
+        
+        
+        
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="https://examplesite.com/nl/get-started">Aan de slag</a>
+        </li>
+        
+        
+        
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="https://examplesite.com/nl/tutorial">Tutorial</a>
+        </li>
+        
+        
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Uitgebreid
+          </a>
+          <div class="dropdown-menu">
+            
+            <a class="dropdown-item" href="https://examplesite.com/nl/extensive-1">Uitgebreid - Applicants</a>
+            
+            <a class="dropdown-item" href="https://examplesite.com/nl/extensive-2">Uitgebreid - Vacancies</a>
+            
+            <a class="dropdown-item" href="https://examplesite.com/nl/extensive-3">Uitgebreid - Skills</a>
+            
+          </div>
+        </li>
+        
+        
+      </ul>
+      
+      <select class="lang-list " id="select-language"
+        onchange="location = this.value;">
+        
+        
+        
+        
+        
+        
+        
+        
+        <option id="en" value="https://examplesite.com/">EN</option>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <option id="nl" value="https://examplesite.com/nl/" selected>NL
+        </option>
+        
+        
+        
+        
+      </select>
+      
+    </div>
+  </div>
+</nav>
+
+      <!-- banner -->
+<div class="container section">
+	<div class="row">
+		<div class="col-lg-8 text-center mx-auto">
+			<h1 class="text-white mb-3">RQRY Infosite</h1>
+			<p class="text-white mb-4">Welkom op de infosite van RQRY!</p>
+			<div class="position-relative">
+				<input id="search" class="form-control" placeholder="Heb je een vraag? Vraag het hier of contacteer ons, we helpen je graag!">
+				<i class="ti-search search-icon"></i>
+				
+				
+				
+				
+				<script>
+					$(function() {
+					var projects = [
+						
+						{
+							value: "Aan de slag",
+							label: "<p>Op deze pagina vind je een kort overzicht van de belangrijkste features van RQRY\nDashboard    Het dashboard geeft je een snel overzicht van:\n  Kandidaten: Je kan de kandidaten ordenen op status (in review, on hold,\u0026hellip;) en je kan bekijken hoeveel resultaten van de respectievelijke kandidaten al zijn opgenomen in RQRY.\n  Vacatures: Je kan bekijken wat de status (open, on hold,.. ) van je specifieke vacatures zijn en je krijgt de mogelijkheid om rechtstreeks naar de simulatiepagina voor een specifieke vacature te gaan.\n  Verder krijg je ook de mogelijkheid om vanuit het dashboard direct nieuwe kandidaten of vacatures toe te voegen aan je organisationele RQRY.\n     Applicants    De applicants pagina geeft je een snel overzicht van:\n Voornaam en achternaam E-mailadres Aantal resultaten per kandidaat   Je krijgt de mogelijkheden op deze pagina om:\n Bestaande kandidaten te filteren op status Bestaande kandidaten te ordenen op naam, e-mailadres en aantal resultaten Nieuwe kandidaten toe te voegen Bestaande kandidaten een of meerdere scores toe te kennen Gegevens van een bestaande kandidaat aan te passen     Vacancies    De vacancies pagina geeft je een snel overzicht van:\n Vacaturetitels Huidige status van de vacature Totaal aantal resultaten per vacature   Je krijgt de mogelijkheden om:\n Bestaande vacatures te filteren op status Bestaande vacatures te ordenen op titel, status en aantal resultaten Nieuwe vacatures toe te voegen Simulaties te maken voor bestaande vacatures Bestaande vacatures te bewerken en up-to-date te brengen     Skills     De skills pagina geeft je een snel overzicht van:\n Titels van de skills Gerelateerde skills Gedragingen en vaardigheden van hoogpresterende werknemers   Je krijgt de mogelijkheden om:\n Nieuwe skills toe te voegen Bestaande skills aan te passen      </p>",
+							url:"https:\/\/examplesite.com\/nl\/get-started\/"
+						},
+						
+						{
+							value: "Tutorial",
+							label: "<p>Op deze pagina gaan we verder in op de mogelijkheden van RQRY aan de hand van een concreet voorbeeld\nLet op dat dit een puur fictief voorbeeld is en dus inhoudelijk niet kan gebruikt worden als voorbeeld voor een vacature\n  Eerst even kort verduidelijken wat we concreet zullen tonen in deze tutorial:  We zouden graag een vacature voor een verpleegkundige (M\/V\/X) opmaken en onze kandidaten voor deze vacature scoren.\n Eerst moeten we inloggen  Dit doen we op https:\/\/rqry.ai\/auth\/login\/, vul je email en wachtwoord in om aan te melden.\n Controleer de organisatie waarvoor je de vacature wilt aanmaken.  Nadat we ons hebben ingelogd, komen we terecht op het dashboard. Hier is het belangrijk dat je zorgt dat je je op de RQRY pagina van de juiste organisatie bevindt.\n Je kan dit controleren in de rechterbovenhoek bij het pijltje naast de naam van je organisatie. Daar krijg je een overzicht van de RQRY pagina\u0026rsquo;s van de verschillende organisaties waarvoor je actief bent. Zoals je kan zien zijn we in de tutorial actief voor de organisatie \u0026ldquo;sandbox\u0026rdquo;. Kies hier dus de relevante organisatie waarvoor je een vacature wil aanmaken.\n Eens we de juiste organisatie hebben gekozen, kunnen we echt beginnen! Hiervoor gaan we eerst onze skills controleren die we nodig hebben voor de vacature.\n Vooraleer de vacature aan te maken: skills controleren  We gaan eerst controleren welke skills we zoeken voor deze vacature en we zullen een van deze skills aanmaken indien deze nog niet terug te vinden is in onze lijst van skills op de \u0026lsquo;Skills\u0026rsquo; pagina.\n We zien dat onze skill \u0026lsquo;Verantwoordelijkheidsgevoel\u0026rsquo; nog niet terug te vinden is in de lijst en we zullen deze dan ook eerst aanmaken via \u0026lsquo;Create New Skill\u0026rsquo;.\n Vooraleer de vacature aan te maken: skills aanmaken  We vullen de naam in (\u0026lsquo;Verantwoordelijkheidsgevoel\u0026rsquo; ) en een skill die hieraan gerelateerd is, namelijk \u0026lsquo;Belichaamt de waarden\u0026rsquo;. Daarna vullen we in wat het verwachte gedrag is van een high performer voor deze skill.\n Vacature aanmaken: titel \u002b selectiefases  Dan gaan we de vacature effectief aanmaken via \u0026lsquo;New Vacancy\u0026rsquo; op de \u0026lsquo;Vacancies\u0026rsquo; pagina waarbij we deze de titel \u0026lsquo;Verpleegkundige (M\/V\/X)\u0027 geven en bepalen uit welke fases het selectieproces zal bestaan. We kiezen ervoor om het selectieproces uit een CV-screening, interview en assessment te laten bestaan. We klikken de psychometric test dus weg uit de rechterkolom via het kruisje.\n Vacature aanmaken: skills  Nadat we de vacature een titel hebben gegeven en beslist hebben uit welke fasen we het selectieproces willen laten bestaan, moeten we bepalen welke skills nodig zijn voor de vacature. Deze skills gaan we toewijzen aan de 3 categorieën: \u0026lsquo;must have\u0026rsquo;, \u0026lsquo;nice to have\u0026rsquo; en \u0026lsquo;mandatory\u0026rsquo;.\nWe kiezen in het voorbeeld de skills \u0026lsquo;Verantwoordelijkheidsgevoel\u0026rsquo; en \u0026lsquo;Observatievermogen\u0026rsquo; als \u0026lsquo;must haves\u0026rsquo; en \u0026lsquo;Belichaamt de waarden\u0026rsquo; en \u0026lsquo;Communicatie\u0026rsquo; als \u0026lsquo;nice to haves\u0026rsquo;. De \u0026lsquo;mandatory\u0026rsquo; is een \u0026lsquo;Bachelor Verpleegkunde\u0026rsquo;.\n Vacature aanmaken: skills gewichten en ranking  Eens we dit hebben gedaan bepalen we in welke mate de must haves vs de nice to haves zullen doorwegen in het berekenen van de fit tussen de persoon en de vacature en hoe zwaar een bepaalde skill doorweegt in een bepaalde categorie door een ranking aan te geven.\nIn dit voorbeeld kiezen we ervoor om de \u0026lsquo;must haves\u0026rsquo; voor 70% te laten doorwegen en de \u0026lsquo;nice to haves\u0026rsquo; voor 30%. Verder bepalen we de onderliggende ranking binnen de categorieën, we kiezen bijvoorbeeld voor de \u0026lsquo;nice to haves\u0026rsquo; om \u0026lsquo;Communicatie\u0026rsquo; naar de 1e plaats te schuiven en \u0026lsquo;Belichaamt de waarden\u0026rsquo; op de 2e plaats te schuiven.\nVoor de \u0026lsquo;must haves\u0026rsquo; kiezen we ervoor om de beide skills even hoog te ranken door \u0026lsquo;Equal to the previous one\u0026rsquo; aan te duiden. Als laatste geven we ook de gewenste scores aan voor de verschillende skills binnen het vakje \u0026lsquo;Expected score\u0026rsquo;.\n Kandidaat scoren: controle  We willen een kandidaat gaan scoren voor de verschillende fases van het selectieproces. Hiervoor moeten we eerst kijken of de kandidaat al aanwezig is in de lijst. De kandidaat uit ons voorbeeld is Peter Peeters, deze kandidaat staat nog niet in onze lijst op de \u0026lsquo;Applicants\u0026rsquo; pagina. We zullen deze dus nog moeten aanmaken.\n Kandidaat aanmaken  Op de \u0026lsquo;Applicants\u0026rsquo; pagina kunnen we nu een kandidaatprofiel aanmaken. We zullen dit kandidaatprofiel daarna gebruiken om de kandidaat een score toe te kennen voor de skills van de vacature.\nOnze kandidaat heet Peter Peeters, heeft het e-mailadres Peter.Peeters@test.test en bij applicant source schrijven we \u0026lsquo;kennis binnen het bedrijf\u0026rsquo; aangezien de kandidaat is voorgeschreven door een medewerker van onze organisatie.\nVerder hebben we geen motivatiebrief gekregen, maar moest dit zo zijn hadden we deze toegevoegd onder \u0026lsquo;Upload File\u0026rsquo;.\nWe schrijven bij \u0026lsquo;Applicant Profile Notes\u0026rsquo; voorlopig niets aangezien we nog geen bemerkingen hebben over de kandidaat.\n  Kandidaat terugvinden  Nadat we het kandidatenprofiel hebben aangemaakt verschijnt dit op de \u0026lsquo;Applicants\u0026rsquo; page. Indien de kandidaat niet direct verschijnt, kan het zijn dat je de statusfilter moet aanpassen rechtsbovenaan de lijst.\nIn het voorbeeld is de lijst aangepast naar \u0026lsquo;Recent\u0026rsquo; zodat we onze lijst filteren op de meest recent aangemaakte kandidaten\n  Kandidaat scoren: nieuwe score  Eens we onze kandidaat hebben teruggevonden in de lijst klikken we op de knop \u0027\u002b SCORE\u0026rsquo; om een score toe te voegen. Dan krijgen we dit te zien, dat betekent dat we eerst moeten bepalen voor welke vacature we de kandidaat willen scoren.\n  Hierna geven we de kandidaat een score voor de fase van de CV-screening. We scoren op basis van het cv een 7 voor \u0026lsquo;Belichaamt de waarden\u0026rsquo; en \u0026lsquo;Verantwoordelijkheidsgevoel\u0026rsquo;.\nAangezien we nog niet genoeg info hebben om sterke conclusies te maken over het \u0026lsquo;Observatievermogen\u0026rsquo; en de communicatieve vaardigheden van de kandidaat laten we de scores in het midden liggen (ergens tussen 4 en 6). We laten dit weten in de \u0026lsquo;Recruitment Process Notes\u0026rsquo; dat er extra aandacht nodig is in volgende fases voor deze skills.\n Simulation: interpretatie van fit tussen kandidaat en vacature   Nadat we de kandidaat een score hebben gegeven, kunnen we nu gaan simuleren hoe goed de kandidaat past bij de vacature. Op de \u0026lsquo;Vacancies\u0026rsquo; pagina drukken we hiervoor op de knop \u0026lsquo;SIMULATE\u0026rsquo;. We krijgen dan onderstaande simulatie te zien.\n  De \u0026lsquo;skill profile scores\u0026rsquo; van Peter Peeters kunnen we bekijken door in de linkergrafiek te klikken op het blauwe bolletje.\nDoor met onze muis over het blauwe bolletje te zweven zien we een fit van 75\/100 tussen de kandidaat en de vacature. Bij de \u0026lsquo;skill profile scores\u0026rsquo; kunnen we gaan inspecteren hoe deze fitscore is tot stand gekomen door te kijken hoe de kandidaat scoort op de skills van de vacature ten opzichte van de gewenste scores op deze skills.\n75\/100 is een goede fit, maar aangezien we voorlopig enkel een CV-screening hebben gedaan, is de kans groot dat deze waarde opgeblazen is. Verdere fases zullen dus moeten aanwijzen of de initiële fitscore bevestigd wordt.\n  Onderaan de pagina kan je tenslotte nog een cirkeldiagram terugvinden waarop staat weergegeven in welke mate de verschillende skillscores worden meegenomen in de berekening van de fitscore tussen kandidaat en vacature.\n</p>",
+							url:"https:\/\/examplesite.com\/nl\/tutorial\/"
+						},
+						
+						{
+							value: "Uitgebreid - Applicants",
+							label: "<p>Hier vind je uitgebreidere info over het onderdeel \u0027 Applicants \u0027 binnen RQRY.\nNew Applicant    New applicant  Zowel via het dashboard als via de applicant pagina kan je kiezen om nieuwe kandidaten toe te voegen.\n  Je kan volgende gegevens toevoegen aan het profiel van de kandidaat:\n  Voornaam\n  Achternaam\n  E-mailadres\n  Extra documenten zoals motivatiebrieven, certificaten, cv,\u0026hellip;\n  Bron van rekrutering: online advertentie, word-of-mouth marketing, kennis binnen het bedrijf,\u0026hellip; Deze kan je zelf toevoegen of je kan een vorige rekruteringsbron aanklikken.\n  Applicant profile notes: heb je nog bemerkingen voor een collega of als reminder voor jezelf? Voeg ze dan hier toe.\n    Heb je de gegevens van de kandidaat correct ingevuld? Vergeet dan niet op \u0026lsquo;save applicant\u0026rsquo; te klikken.\n     Add Score For Applicant    Add Score For Applicant  Op deze pagina kan je een kandidaat scoren voor je geselecteerde vacature.\n  Nadat je een vacature hebt geselecteerd, heb je de mogelijkheid om de fase van het rekruteringsproces te kiezen waarvoor je de kandidaat wil scoren. Afhankelijk van de vacature zullen er verschillende fases beschikbaar zijn.\n  Eens je de fase van het rekruteringsproces hebt gekozen, kan je de kandidaat scoren op de verschillende skills:\n Door met je muis over het informatietekentje rechtsboven een skill te zweven, kan je zien wat de gedragingen en vaardigheden van een hoogpresterende werknemer voor deze skill zijn. Indien je nog niet genoeg kennis over de aan- of afwezigheid van een skill hebt in een vroege fase, laat de scoring dan in het midden staan: 4-6. Je kan dan bij de \u0026lsquo;Recruitment Process Notes\u0026rsquo; een bemerking schrijven om extra aandacht te vereisen voor deze skill in een volgende fase van het rekruteringsproces. Vergeet je score niet op te slagen.     Applicant Results Detail    Applicant Results Detail  Door op het profiel van een kandidaat te drukken, krijg je een gedetailleerd overzicht van de volgende kandidaatgegevens:\n   Voornaam en achternaam E-mailadres Bron van rekrutering Vacatures waarvoor de kandidaat meedingt  Per vacature waar de kandidaat is voor gescoord, krijg je een overzicht van:\n   De skills die bij de vacature horen Scores in de verschillende rekruteringsfases per vacature Aparte \u0026lsquo;Recruitment Process Notes\u0026rsquo; per vacature   Je krijgt de mogelijkheid om:\n De overzichtstabel te kopiëren Via de zoekbalk de score op een specifieke skill te zoeken Een verslag te krijgen via \u0026lsquo;PDF\u0026rsquo; van de kandidaat voor de geselecteerde vacature      </p>",
+							url:"https:\/\/examplesite.com\/nl\/extensive-1\/"
+						},
+						
+						{
+							value: "Uitgebreid - Vacancies",
+							label: "<p>Hier vind je uitgebreidere info over het onderdeel \u0027 Vacancies \u0027 binnen RQRY.\nCreate New Vacancy    Create New Vacancy  Op deze pagina maak je een nieuwe vacature aan: Bepaal de inhoud van je vacature:\n titel status: open, on hold of closed Rekruteringsfases: Indien je meer fases wil dan hier aangegeven, kan je een fase van de linkerkolom naar de rechterkolom slepen. Indien je minder fases wil, kan je op het kruisje drukken in de rechterkolom om de fase te verwijderen.    Skills van de vacature: \u0026lsquo;must have skills\u0026rsquo;, \u0026lsquo;nice to have skills\u0026rsquo; en \u0026lsquo;mandatory skills\u0026rsquo; \u0026lsquo;must have skills\u0027: skills die noodzakelijk zijn voor het leveren van goede werkprestaties \u0026lsquo;nice to have skills\u0027: skills die het verschil maken tussen goede en uitstekende kandidaten, deze zijn niet noodzakelijk voor het leveren van een goede werkprestatie maar zorgen voor differentiatie tussen kandidaten \u0026lsquo;mandatory skills\u0027: skills die dienen als voorwaarde om een beroep te mogen of kunnen uit te oefenen Via de slider kan je aangeven in welke mate je de \u0026lsquo;must haves\u0026rsquo; vs \u0026lsquo;nice to haves\u0026rsquo; wil laten doorwegen op de fitbepaling tussen kandidaten en de vacature Via \u0026lsquo;add a skill\u0026rsquo; kan je skills toevoegen aan de verschillende categorieën van skills   Nadat je skills hebt toegevoegd aan je vacature, moet je nog enkele cruciale kenmerken bepalen:\n  Categoriseer je skills: de kolom stelt de categorie van skills voor, dus zorg bijvoorbeeld dat je je \u0026lsquo;must haves\u0026rsquo; ook categoriseert in de kolom van \u0026lsquo;must have skills\u0026rsquo; Geef per categorie het relatief belang van je skills aan: indien je een bepaalde skill belangrijker vindt dan een andere skill, kan je dit aangeven door deze erboven te slepen. Indien je skills hebt die relatief even belangrijk zijn, kan je dit aangeven door ze onder elkaar te zetten en \u0026lsquo;Equal to the previous one\u0026rsquo; aan te duiden. Per skill moet je ook een verwachte score aanduiden die het gewenste niveau weergeeft dat kandidaten moeten halen om een kans te maken op rekrutering.    Nog enkele belangrijke bemerkingen m.b.t. vacatures:\n  Indien je een vacature moet dupliceren (Bv. nieuwe solution consultant vacature wanneer deze vacature al bestaat), kan je extra info toevoegen aan de titel van deze vacature (Bv. solution consultant afdeling HR). Indien je dit niet doet zal RQRY de aanmaakdatum van de vacature toevoegen aan de titel. Het bewerken\/updaten van een vacature verloopt op dezelfde manier als het aanmaken van een vacature. Om een vacature te veranderen, up-to-date te brengen,\u0026hellip; moet je de vacature eerst \u0026lsquo;on hold\u0026rsquo; zetten. Dit om tegen te gaan dat veranderingen in je vacature interfereren met het rekruteringsproces. Enkel vacatures die \u0026lsquo;open\u0026rsquo; staan, kunnen kandidaatscores ontvangen. Vergeet je vacature niet op te slagen.      Vacancy Details    Vacancy details   Deze pagina bereik je door te klikken op een vacature in het overzicht van de vacatures op de \u0026lsquo;Vacancies\u0026rsquo; pagina. De \u0026lsquo;Vacancy Details\u0026rsquo; pagina geeft je de mogelijkheid om 2 overzichten te bekijken.\n   De \u0026lsquo;Results\u0026rsquo; subpagina geeft je de mogelijkheid om per fase van het rekruteringsproces de fitscores tussen de kandidaten en de vacature te bekijken.     Indien je op het pijltje links van de kandidaatnaam klikt, kan je een uitgebreider overzicht krijgen voor de kandidaatscores die staan opgelijst per skill die je linkt aan de vacature. De scores op deze skills vormen de basis voor de fitscore tussen de kandidaat en de vacature. De scores kan je ook per fase van het rekruteringsproces bekijken. Zo krijg je een gedetailleerd overzicht van een kandidaat waarbij je voor de verschillende rekruteringsfases kan nagaan hoe de kandidaat scoort op een specifieke skill.     Op de \u0026lsquo;Results\u0026rsquo; pagina heb je verder ook de mogelijkheid om een verslag van de fitscores voor de verschillende rekruteringsfases te krijgen via de \u0026lsquo;PDF\u0026rsquo; knop. Dit kan je gebruiken voor interne communicatie omtrent de rekruteringsbeslissing. Hieronder vind je hiervan een voorbeeld.     Verder heb je op de \u0026lsquo;Results\u0026rsquo; pagina de optie om zowel de scores van de kandidaten als de status van de kandidaten te bewerken. Op de algemene pagina \u0026lsquo;Vacancy Details\u0026rsquo; kan je ook doorgaan naar de simulaties, ervoor kiezen om de vacature te bewerken en kan je scores toevoegen aan de kandidaten voor de verschillende rekruteringsfases.   De \u0026lsquo;Profile\u0026rsquo; subpagina geeft je een overzicht van hoe je de vacature hebt opgebouwd.    Je krijgt de volgende gegevens weergegeven:\n  Stappen in het selectie- en rekruteringsproces Namen van de skills waaruit de vacature is opgebouwd Categorie waartoe de skill behoort (\u0027Mandatory\u0027, \u0026lsquo;Must Have\u0026rsquo;, \u0026lsquo;Nice To Have\u0027) \u0026lsquo;Criticality\u0027: geeft aan in welke mate de bepaalde categorie van skills doorweegt (bv 40-60, 50-50,\u0026hellip;) op de fitbepaling tussen kandidaat en vacature. Dit is het relatief belang van de categorieën van skills tussen elkaar, het belang van de \u0026lsquo;must haves\u0026rsquo; vs \u0026lsquo;nice to haves\u0026rsquo; \u0026lsquo;Weight\u0027: geeft aan wat het relatief belang is van een skill binnen een bepaalde categorie van skills, bijvoorbeeld hoe sterk een bepaalde skill doorweegt in de \u0026lsquo;must haves\u0026rsquo;      Simulation    Simulation  Op deze pagina krijg je 2 simulaties die de ondersteuningsmotor vormen voor je rekruteringsproces.\n  \u0026lsquo;Visual Analysis\u0027:    een simulatie die de fit weergeeft tussen de vacature en een steekproef van 100 willekeurige fictieve kandidaten op basis van de scores op \u0026lsquo;must haves\u0026rsquo; en \u0026lsquo;nice to haves\u0026rsquo;.     Deze \u0026lsquo;Visual Analysis\u0026rsquo; bestaat uit groene bolletjes en blauwe bolletjes. De groene bolletjes stellen de steekproef van 100 willekeurig fictieve kandidaten voor en de blauwe bolletjes zijn de kandidaten die je zelf hebt toegevoegd. Door te zweven over een bolletje, zie je de fit van een specifieke kandidaat met de vacature. Indien je op een bolletje klikt, krijg je de \u0026ldquo;Skill profile scores for\u0026hellip;\u0026quot;: dit is een grafiek die weergeeft wat de gewenste scores (oranje) zijn en wat de scores van de geselecteerde kandidaat zijn (blauw) voor de skills van een vacature.    \u0026lsquo;Impact Analysis\u0027:     deze diagram geeft weer in welke mate de aparte skills doorwegen in het berekenen van de fit tussen de kandidaat en de vacature.\n  Door te zweven over een element van de diagram kan je zien hoeveel een specifieke skill doorweegt in het berekenen van de fit tussen de kandidaat en de vacature.\n  Bekijk dit zeker om te controleren of de verdeling reflecteert wat de organisationele behoeften voor de specifieke vacature inhouden.\n      </p>",
+							url:"https:\/\/examplesite.com\/nl\/extensive-2\/"
+						},
+						
+						{
+							value: "RQRY Infosite",
+							label: "<p></p>",
+							url:"https:\/\/examplesite.com\/nl\/"
+						},
+						
+						{
+							value: "Uitgebreid - Skills",
+							label: "<p>Hier vind je uitgebreidere info over het onderdeel \u0027 Skills \u0027 binnen RQRY.\nNew Skills    New Skills  Op deze pagina maak je een nieuwe skill aan. Hierbij moet je volgende gegevens invoeren:  Naam van de skill Gerelateerde skill: een andere skill die sterk samenhangt met de skill \u0026lsquo;High Behaviour\u0027: gedragingen en vaardigheden van hoogpresterende werknemers voor deze specifieke skill. Vergeet niet op te slagen   Het bewerken\/updaten van een skill verloopt op dezelfde manier als het aanmaken van skills. Let wel op:\n  Zorg dat je beschrijvingen bij de skill duidelijk en helder communiceerbaar zijn naar anderen. Skills kunnen altijd bewerkt\/geüpdatet worden maar pas op voor skills die al in gebruik zijn bij profielen van kandidaten. In de toekomst zullen skills die in gebruik zijn niet meer kunnen geüpdatet worden. Vergeet niet te updaten.     </p>",
+							url:"https:\/\/examplesite.com\/nl\/extensive-3\/"
+						},
+						
+						{
+							value: "Categories",
+							label: "<p></p>",
+							url:"https:\/\/examplesite.com\/nl\/categories\/"
+						},
+						
+						{
+							value: "Tags",
+							label: "<p></p>",
+							url:"https:\/\/examplesite.com\/nl\/tags\/"
+						},
+						
+					];
+					$( "#search" ).autocomplete({
+						source: projects
+					})
+					.data( "ui-autocomplete" )._renderItem = function( ul, item ) {
+						return $( "<li>" )
+						.append( "<a href=" + item.url + " + \" &quot;\" +  >" + item.value + "</a>" + item.label )
+						.appendTo( ul );
+					};
+					});
+				</script>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- /banner -->
+    </header>
+    <!-- /header -->
+    
+    
+
+  <!-- topics -->
+  <section class="section">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 text-center">
+          <h2 class="section-title">Vind je antwoord per onderwerp</h2>
+        </div>
+        <!-- topic-item -->
+        
+        <div class="col-lg-4 col-sm-6 mb-4">
+          <a href="https://examplesite.com/nl/get-started/" class="px-4 py-5 bg-white shadow text-center d-block match-height">
+            <i class="ti-panel icon text-primary d-block mb-4"></i>
+            <h3 class="mb-3 mt-0">Aan de slag</h3>
+            <p class="mb-0">Hier kan je basisinfo vinden om te starten met RQRY.</p>
+          </a>
+        </div>
+        
+        <div class="col-lg-4 col-sm-6 mb-4">
+          <a href="https://examplesite.com/nl/tutorial/" class="px-4 py-5 bg-white shadow text-center d-block match-height">
+            <i class="ti-pulse icon text-primary d-block mb-4"></i>
+            <h3 class="mb-3 mt-0">Tutorial</h3>
+            <p class="mb-0">Hier kan een je een snelle tutorial vinden.</p>
+          </a>
+        </div>
+        
+        <div class="col-lg-4 col-sm-6 mb-4">
+          <a href="https://examplesite.com/nl/extensive-1/" class="px-4 py-5 bg-white shadow text-center d-block match-height">
+            <i class="ti-dashboard icon text-primary d-block mb-4"></i>
+            <h3 class="mb-3 mt-0">Uitgebreid - Applicants</h3>
+            <p class="mb-0">Hier vind je uitgebreidere info over het onderdeel &#39; Applicants &#39; binnen RQRY.</p>
+          </a>
+        </div>
+        
+        <div class="col-lg-4 col-sm-6 mb-4">
+          <a href="https://examplesite.com/nl/extensive-2/" class="px-4 py-5 bg-white shadow text-center d-block match-height">
+            <i class="ti-package icon text-primary d-block mb-4"></i>
+            <h3 class="mb-3 mt-0">Uitgebreid - Vacancies</h3>
+            <p class="mb-0">Hier vind je uitgebreidere info over het onderdeel &#39; Vacancies &#39; binnen RQRY.</p>
+          </a>
+        </div>
+        
+        <div class="col-lg-4 col-sm-6 mb-4">
+          <a href="https://examplesite.com/nl/extensive-3/" class="px-4 py-5 bg-white shadow text-center d-block match-height">
+            <i class="ti-target icon text-primary d-block mb-4"></i>
+            <h3 class="mb-3 mt-0">Uitgebreid - Skills</h3>
+            <p class="mb-0">Hier vind je uitgebreidere info over het onderdeel &#39; Skills &#39; binnen RQRY.</p>
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  <!-- /topics -->
+
+  
+  
+  <!-- call to action -->
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="section px-3 bg-white shadow text-center">
+          <h2 class="mb-4">Vind je geen antwoord op je vraag?</h2>
+          <p class="mb-4">Contacteer ons op het emailadres <a href="mailto:rqry@resolved.be">rqry@resolved.be</a> voor een snel antwoord.</p>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /call to action -->
+  
+  
+
+
+    <!-- footer -->
+<footer class="section pb-4">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-8 text-md-left text-center">
+       <p class="mb-md-0 mb-4">Copyright © 2020 Resolved</p>
+      </div>
+      <div class="col-md-4 text-md-right text-center">
+        <ul class="list-inline">
+          
+          <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="https://resolved.be/solutions-rqry"><i class="ti-home"></i></a></li>
+          
+          <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="https://twitter.com/BeResolved"><i class="ti-twitter-alt"></i></a></li>
+          
+          <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="https://www.linkedin.com/company/69262648"><i class="ti-linkedin"></i></a></li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- /footer -->
+
+<!-- Main Script -->
+
+<script src="https://examplesite.com/js/script.min.js"></script>
+  </body>
+
+</html>
